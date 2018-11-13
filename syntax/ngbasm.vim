@@ -25,7 +25,7 @@ syn match nasLabel '\v^\s*:[A-Za-z0-9_]+'
 
 syn keyword nasOp nop jump gt and lit call fetch or dup ccall store xor
 syn keyword nasOp drop return add shift swap eq sub zret push neq mul end
-syn keyword nasOp pop lt divmod in out cjump iseof
+syn keyword nasOp pop lt divmod in out cjump iseof numin numout
 
 hi def link     nasComment      Comment
 hi def link     nasTodo         Todo
