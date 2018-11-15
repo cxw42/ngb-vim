@@ -19,7 +19,7 @@ syn case match
 syn match nasComment '\v(^|\s);.*$' contains=nasTodo
 syn keyword nasTodo TODO FIXME XXX
 
-syn match nasDirective '\v(^|\s)(\.include|\.output|\.data|\.const)'
+syn match nasDirective '\v(^|\s)(\.include|\.output|\.data|\.const|\.reserve)'
 
 syn match nasLabel '\v^\s*:[A-Za-z0-9_]+'
 syn match nasLabelRef '\v\s\&[A-Za-z0-9_]+'
